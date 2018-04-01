@@ -4,7 +4,6 @@
 # bluetooth to the ATmega328P (Arduino UNO) with the help of HC-06. A record and play of robotic arm option is also provided.
 
 #     AUTHOR  : Nevil Pooniwala
-#     MOBILE  : 9870000336
 #     EMAIL   : nevilpooniwala1997@gmail.com
 
 import cv2
@@ -13,7 +12,7 @@ import copy
 import math
 import serial
 import time
-port="COM5"
+port="COM5"  # different for Linux
 bluetooth=serial.Serial(port, 9600)
 
 # parameters
